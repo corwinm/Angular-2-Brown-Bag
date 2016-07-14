@@ -1,10 +1,15 @@
 import { provideRouter, RouterConfig } from '@angular/router';
 
-import { HomeComponent } from "./home/home.component";
+import { HomeComponent } from "./home";
+import { AboutComponent } from "./about";
+
+import { MovieRoutes } from "./movie/movie.routes";
 
 const AppRoutes = [
     //Root component routes here
-    { path: '', component: HomeComponent, index: true }
+    { path: '', component: HomeComponent, index: true },
+    { path: 'about', component: AboutComponent },
+    MovieRoutes
 ];
 
 const routes: RouterConfig = [

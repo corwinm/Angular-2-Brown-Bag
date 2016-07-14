@@ -17,8 +17,8 @@ module.exports = function(defaults) {
       'reflect-metadata/**/*.+(ts|js|js.map)',
       'rxjs/**/*.+(js|js.map)',
       '@angular/**/*.+(js|js.map)',
-      'bootstrap/dist/css/bootstrap.min.css',
-      'bootstrap/dist/js/bootstrap.min.js'
+      'bootstrap/dist/**/*',
+      'search-service/**/*.js'
     ]
   });
 };

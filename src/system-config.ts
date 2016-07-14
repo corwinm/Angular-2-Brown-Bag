@@ -7,10 +7,14 @@
  **********************************************************************************************/
 /** Map relative paths to URLs. */
 const map: any = {
+  "search-service": "vendor/search-service"
 };
 
 /** User packages configuration. */
 const packages: any = {
+  'search-service':{
+    main: 'index'
+  }
 };
 
 ////////////////////////////////////////////////////////////////////////////////////////////////
@@ -37,6 +41,12 @@ const barrels: string[] = [
   'app/bb-nav-bar',
   'app/nav-bar',
   'app/home',
+  'app/about',
+  'app/movie',
+  'app/movie-detail',
+  'app/movie-search',
+  'app/movie-results',
+  'app/mock-service',
   /** @cli-barrel */
 ];
 
