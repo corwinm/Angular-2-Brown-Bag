@@ -1,0 +1,10 @@
+<form role="search">
+  <div class="input-group">
+    <input #query type="text" class="form-control" placeholder="Search">
+    <span class="input-group-btn">
+      <button (click)="Search(query.value)" class="btn btn-default">
+        <span class="glyphicon glyphicon-search"></span>
+      </button>
+    </span>
+  </div>
+</form>
